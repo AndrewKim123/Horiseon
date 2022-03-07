@@ -8,6 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*  Navigation Bar & Title */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,12 +25,14 @@ body {
     color: #ffffff;
 }
 
+/* Navigation Bar & Title */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Partial Title */
+.seo {
     color: #d9dcd6;
 }
 
@@ -41,15 +53,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Main Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +73,14 @@ p {
     margin-left: 25px;
 }
 
+/* Main */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Side Bar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
